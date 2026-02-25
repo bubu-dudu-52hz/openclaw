@@ -1,0 +1,13 @@
+{
+  "name": "anthropic-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build server.ts --outdir dist --target bun",
+    "dev": "bun --watch run server.ts",
+    "start": "bun run server.ts"
+  },
+  "dependencies": {
+    "hono": "4.11.7"
+  }
+}
